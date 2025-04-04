@@ -13,10 +13,10 @@ export default function Home() {
         </div>
         <div className="mx-30">Welcome</div>
       </Layout> */}
-      <div className="container p-[16px]">
+      <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">
-            <h1 className="font-semibold text-emerald-500 md:text-xl">
+            <h1 className="font-semibold text-primary md:text-xl">
               Halo Semua :D, saya{" "}
               <span className="block font-bold text-slate-900 text-4xl lg:text-5xl">
                 Riza Pranata
@@ -31,7 +31,7 @@ export default function Home() {
 
             <a
               href="#"
-              className="text-base font-semibold text-white bg-emerald-500 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
             >
               Contact Me
             </a>
