@@ -1,5 +1,5 @@
 import Layout from "@/components/Layout/page";
-import React, { Key } from "react";
+import React from "react";
 import ListUsers from "./listUsers";
 
 export default async function Users() {
@@ -11,7 +11,7 @@ export default async function Users() {
       <div className="mx-30">
         {dataUsers.map((user: { id: string; name: string }) => {
           return (
-            <ListUsers params={{
+            <ListUsers key={user.id} params={{
               id: user.id,
               name: user.name,
             }} />
