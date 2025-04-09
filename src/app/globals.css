@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Inter', sans-serif
+}
+
+.humburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-dark;
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
