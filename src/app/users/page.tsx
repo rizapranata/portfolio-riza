@@ -11,7 +11,7 @@ export default async function Users() {
       <div className="mx-30">
         {dataUsers.map((user: { id: string; name: string }) => {
           return (
-            <ListUsers key={user.id} params={{
+            <ListUsers params={{
               id: user.id,
               name: user.name,
             }} />

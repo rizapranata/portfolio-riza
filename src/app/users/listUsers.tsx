@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 interface ListUserProps {
   params: {
     id: string;
-    name: String;
+    name: string;
   };
 }
 

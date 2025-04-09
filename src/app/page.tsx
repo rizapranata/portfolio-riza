@@ -1,4 +1,4 @@
-import Layout from "@/components/Layout/page";
+// import Layout from "@/components/Layout/page";
 import Image from "next/image";
 import React from "react";
 import riza from "../../public/profile.png";
@@ -120,7 +120,7 @@ export default function Home() {
             </div>
             <div className="w-full px-4 lg:w-1/2">
               <h3 className="font-bold text-l text-secondary text-xl lg:pt-10">
-                Let's Be Friends
+                Lets Be Friends
               </h3>
               <p className="font-medium text-base text-justify text-secondary mb-6 max-w-xl lg:text-lg">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
