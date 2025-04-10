@@ -7,12 +7,10 @@ import alfa from "../../public/alfagift.webp";
 import arjuna from "../../public/arjuna.png";
 import djp from "../../public/djp.png";
 import eduku from "../../public/eduku.png";
-import port1 from "../../public/port-1.png";
 import arjunaPort from "../../public/arjuna-auth.jpeg";
 import octorSmart from "../../public/octosmart.jpeg";
 import djpmobile from "../../public/djp.jpeg";
 import wm from "../../public/wm.jpeg";
-import port2 from "../../public/port-2.png";
 import Link from "next/link";
 import Navbar from "@/components/Navbar/page";
 
@@ -262,7 +260,7 @@ export default function Home() {
                 Project Arjuna
               </h3>
               <p className="text-secondary">
-                Project ARJUNA is CIMB Niaga's cloud-based HR software designed
+                Project ARJUNA is CIMB Niagas cloud-based HR software designed
                 to streamline various aspects of the employee journey.
                 Accessible via a mobile application, ARJUNA enables employees to
                 manage HR tasks efficiently, including attendance tracking,
@@ -283,7 +281,7 @@ export default function Home() {
                 or trusted individuals. This supplementary card is directly
                 linked to the primary credit card account, meaning all
                 transactions made with the supplementary card will be reflected
-                in the primary card’s monthly statement.
+                in the primary cards monthly statement.
               </p>
             </div>
             <div className="mb-6 p-4 md:w-1/2">
@@ -295,7 +293,7 @@ export default function Home() {
               </h3>
               <p className="text-secondary">
                 The Wealth Management feature on the OCTO Mobile application
-                from CIMB Niaga is designed to simplify customers' management
+                from CIMB Niaga is designed to simplify customers management
                 and development of their assets digitally. some key features
                 available: Investment in Mutual Funds and Bonds: Customers can
                 open a mutual fund account directly through their smartphone,
