@@ -40,18 +40,21 @@ export default function Navbar() {
           <Link
             href="#home"
             className="block py-2 text-gray-700 font-bold hover:text-primary"
+            onClick={() => setIsOpen(!isOpen)}
           >
             Home
           </Link>
           <Link
             href="#about"
             className="block py-2 text-gray-700 font-bold hover:text-primary"
+            onClick={() => setIsOpen(!isOpen)}
           >
             About
           </Link>
           <Link
             href="#contact"
             className="block py-2 text-gray-700 font-bold hover:text-primary"
+            onClick={() => setIsOpen(!isOpen)}
           >
             Contact
           </Link>
