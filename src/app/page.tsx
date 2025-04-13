@@ -13,6 +13,13 @@ import djpmobile from "../../public/djp.jpeg";
 import wm from "../../public/wm.jpeg";
 import Link from "next/link";
 import Navbar from "@/components/Navbar/page";
+import Head from "next/head";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Riza Pranata Profile",
+  description: "Portfolio Riza Pranata",
+};
 
 export default function Home() {
   return (
@@ -47,6 +54,9 @@ export default function Home() {
           </div>
         </div>
       </header> */}
+      <Head>
+        <metadata />
+      </Head>
       <Navbar />
       {/* Hero section start */}
       <section id="home" className="pt-24">
@@ -293,8 +303,8 @@ export default function Home() {
               </h3>
               <p className="text-secondary">
                 The Wealth Management feature on the OCTO Mobile application
-                from CIMB Niaga is designed to simplify customers management
-                and development of their assets digitally. some key features
+                from CIMB Niaga is designed to simplify customers management and
+                development of their assets digitally. some key features
                 available: Investment in Mutual Funds and Bonds: Customers can
                 open a mutual fund account directly through their smartphone,
                 choose and compare various mutual fund products, and perform
@@ -328,9 +338,7 @@ export default function Home() {
               Who has worker together
             </h2>
             <p className="font-medium text-md text-secondary md:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              sed facere dolorem et repellat ducimus eos cum atque consectetur
-              unde?
+              Here are some of the companies whose projects I have worked on
             </p>
           </div>
           <div className="w-full px-4">
@@ -382,8 +390,7 @@ export default function Home() {
                 Contact Us
               </h2>
               <p className="font-medium text-md text-secondary md:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium, id?
+                Let me know if you need any help from me!
               </p>
             </div>
           </div>
@@ -479,7 +486,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="w-full px-4 mb-12 text-slate-300 md:w-1/3">
-              <h2 className="font-bold text-xl text-white mb-5">Tautan</h2>
+              <h2 className="font-bold text-xl text-white mb-5">Link</h2>
               <ul className="text-slate-300">
                 <li>
                   <Link
